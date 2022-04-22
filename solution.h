@@ -15,7 +15,7 @@ Result evaluate(string input)
         float b;
         for(auto it:input){
         if(isdigit(it))
-            result.pushb_front(it-'0');
+            result.push_front(it-'0');
         }
         
         if(!operador.empty()){
